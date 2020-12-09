@@ -25,9 +25,22 @@
 
       gtag('config', 'G-LKEF9TB5PJ');
     </script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PRJ4RWX');</script>
+<!-- End Google Tag Manager -->
       
   </head>
   <body>
+      
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRJ4RWX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
       
     <div class="wrapper">
       <!-- Navbar Section -->
@@ -294,7 +307,7 @@
               <h6>&copy; Kris Bolton 2020 All Rights Reserved</h6>
             </div>
             <div class="col-md-4">
-              <a href="privacy-policy.html" class="footer-logo">Privacy Policy</a>
+              <a href="privacy-policy.html" onclick="gtag(‘event’, ‘engagement’, {'event_category' : 'navigation', 'event_label' : 'privacy'});" class="footer-logo">Privacy Policy</a>
             </div>
             <div class="col-md-4">
               <ul>
@@ -310,7 +323,7 @@
        <!-- Scroll To Top -->
         <div id="back-top" class="bk-top">
           <div class="bk-top-txt">
-             <a class="back-to-top js-scroll-trigger" href="#main"> UP </a>
+             <a class="back-to-top js-scroll-trigger" href="#main"  onclick="gtag(‘event’, ‘engagement’, {'event_category' : 'navigation', 'event_label' : 'Up'});"> UP </a>
           </div>
         </div>
        <!-- Scroll To Top Ends-->
